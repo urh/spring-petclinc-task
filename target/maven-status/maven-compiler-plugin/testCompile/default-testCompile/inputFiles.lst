@@ -1,0 +1,11 @@
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/model/ValidatorTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetControllerTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/VisitControllerTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/ClinicServiceTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/system/ProductionConfigurationTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/PetTypeFormatterTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/vet/VetControllerTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/service/EntityUtils.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/owner/OwnerControllerTests.java
+/Users/uri/dev/spring-petclinic/src/test/java/org/springframework/samples/petclinic/system/CrashControllerTests.java

@@ -1,0 +1,25 @@
+version: '3'
+services:
+  nginx:
+    build:
+      context:  ./services/nginx
+      dockerfile: Dockerfile
+    ports:
+        - "8081:8081"
+    links:
+      - app
+  app:
+    image: spring-petclinic:latest
+    expose:
+        - "8080"
+    depends_on:
+        - database
+  database:
+    image: mysql
+    ports:
+        - "3306:3306"
+    environment:
+        - MYSQL_ROOT_PASSWORD=petclinic
+        - MYSQL_DATABASE=petclinic
+    volumes:
+        - "./conf.d:/etc/mysql/conf.d:ro"

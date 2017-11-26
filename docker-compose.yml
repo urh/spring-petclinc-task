@@ -12,7 +12,7 @@ services:
     image: spring-petclinic:latest
     expose:
         - "8080"
-    depends_on:
+    links:
         - database
   database:
     image: mysql
